@@ -1,0 +1,50 @@
+Webpack Bundle Analyzer is started at http://127.0.0.1:8888
+Use Ctrl+C to close it
+Hash: a8f4b1881e03c8d51952
+Version: webpack 4.42.0
+Time: 2697ms
+Built at: 03/15/2020 12:52:02 PM
+                                         Asset       Size                  Chunks                         Chunk Names
+                     0.a8f4b1881e03c8d51952.js    530 KiB                       0  [emitted] [immutable]  
+          11eabca2251325cfc5589c9c6fb57b46.ttf    167 KiB                          [emitted]              
+          a5e407bd5b91616e58d33cc0e60205e2.png    437 KiB                          [emitted]              
+             analytics.a8f4b1881e03c8d51952.js   7.37 KiB               analytics  [emitted] [immutable]  analytics
+                                   favicon.ico   1.12 KiB                          [emitted]              
+                                    index.html  809 bytes                          [emitted]              
+                 main.a8f4b1881e03c8d51952.css  768 bytes                    main  [emitted] [immutable]  main
+                  main.a8f4b1881e03c8d51952.js   18.7 KiB                    main  [emitted] [immutable]  main
+vendors~analytics~main.a8f4b1881e03c8d51952.js    274 KiB  vendors~analytics~main  [emitted] [immutable]  vendors~analytics~main
+         vendors~main.a8f4b1881e03c8d51952.css      6 KiB            vendors~main  [emitted] [immutable]  vendors~main
+          vendors~main.a8f4b1881e03c8d51952.js   1.31 MiB            vendors~main  [emitted] [immutable]  vendors~main
+Entrypoint main = vendors~analytics~main.a8f4b1881e03c8d51952.js vendors~main.a8f4b1881e03c8d51952.css vendors~main.a8f4b1881e03c8d51952.js main.a8f4b1881e03c8d51952.css main.a8f4b1881e03c8d51952.js
+Entrypoint analytics = vendors~analytics~main.a8f4b1881e03c8d51952.js analytics.a8f4b1881e03c8d51952.js
+[0] multi @babel/polyfill ./index.jsx 40 bytes {main} [built]
+[./analytics.ts] 546 bytes {analytics} [built]
+[./assets/webpack-logo.png] 80 bytes {main} [built]
+[./babel.js] 1.91 KiB {main} [built]
+[./index.jsx] 1.26 KiB {main} [built]
+[./models/Post.js] 1.22 KiB {main} [built]
+[./styles/less.less] 39 bytes {main} [built]
+[./styles/scss.scss] 39 bytes {main} [built]
+[./styles/styles.css] 39 bytes {main} [built]
+    + 327 hidden modules
+Child html-webpack-plugin for "index.html":
+     1 asset
+    Entrypoint undefined = index.html
+    [../node_modules/html-webpack-plugin/lib/loader.js!./index.html] 601 bytes {0} [built]
+        + 3 hidden modules
+Child mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!styles/less.less:
+    Entrypoint mini-css-extract-plugin = *
+    [../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./styles/less.less] 392 bytes {mini-css-extract-plugin} [built]
+        + 1 hidden module
+Child mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!styles/scss.scss:
+    Entrypoint mini-css-extract-plugin = *
+    [../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./styles/scss.scss] 397 bytes {mini-css-extract-plugin} [built]
+        + 1 hidden module
+Child mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!styles/styles.css:
+    Entrypoint mini-css-extract-plugin = *
+    [../node_modules/css-loader/dist/cjs.js!./styles/roboto.css] 643 bytes {mini-css-extract-plugin} [built]
+    [../node_modules/css-loader/dist/cjs.js!./styles/styles.css] 1.19 KiB {mini-css-extract-plugin} [built]
+    [./assets/fonts/Roboto-Regular.ttf] 80 bytes {mini-css-extract-plugin} [built]
+    [./assets/webpack-logo.png] 80 bytes {mini-css-extract-plugin} [built]
+        + 3 hidden modules
